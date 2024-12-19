@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+header h1 {
+    background: black;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin-left: 39%;
+    display: inline ;  
+    border-style: groove;
+    border-color: #191919;
+    border-width: medium;
+    margin-top: 50px;
+    border-radius: 10px;   
+}
+ h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+nav {
+    background: #191919;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    padding: 0.5rem 0;
+    margin: 0;
+    background-color: blue;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: red;
+}
+
+nav ul li a:active {
+    background-color: #333;
+}
+main {
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+
+section h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+section {
+    border: 2px solid black;
+    width: 700px;
+    border-style: groove;
+}
+section h3{
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+}
+section p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+section h4{
+    text-align: left;
+}
+section ul{
+    text-align: justify;
+    margin: 0;
+}
+section h5{
+    text-align: left;
+}
+section p{
+    text-align: justify;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: auto;
+}
+.part1{
+    display: inline;
+}
+.part2{
+    display: inline;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* @media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    main {
+        margin-left: 0; 
+        flex-direction: column;
+    }
+
+    section {
+        flex: 1 1 100%; 
+    }
+
+    aside {
+        
+        position: static; 
+        margin-bottom: 1rem; 
+    }
+} */

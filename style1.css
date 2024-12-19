@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header h1 {
+    background: black;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin-left: 39%;
+    display: inline ;  
+    border-style: groove;
+    border-color: #191919;
+    border-width: medium;
+    margin-top: 50px;
+    border-radius: 10px;   
+}
+ h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+nav {
+    background: #191919;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    padding: 0.5rem 0;
+    margin: 0;
+    background-color: blue;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: red;
+}
+
+nav ul li a:active {
+    background-color: #333;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    
+  }
+  body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/014/680/225/non_2x/blue-green-gradient-web-design-abstract-background-eps-10-for-website-landing-page-home-page-web-page-vector.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+
+main {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    margin-left: 100px; 
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+
+section {
+    flex: 1; 
+   
+    padding: 1rem;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+  }
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: auto;
+}
+
+
+/* @media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    main {
+        margin-left: 0; 
+        flex-direction: column;
+    }
+
+    section {
+        flex: 1 1 100%; 
+    }
+
+    aside {
+        
+        position: static; 
+        margin-bottom: 1rem; 
+    }
+} */
